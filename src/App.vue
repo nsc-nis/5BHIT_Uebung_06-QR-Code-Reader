@@ -1,5 +1,9 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <Header/>
+    <Main>/>
+    <Footer/>
+  </div>
 </template>
 
 <script>
