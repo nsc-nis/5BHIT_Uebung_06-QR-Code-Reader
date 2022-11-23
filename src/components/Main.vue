@@ -14,7 +14,11 @@
       &nbsp;
     </button>
 
-    <div v-show="showcolorpicker" style="position: absolute">
+    <div
+      v-show="showcolorpicker"
+      style="position: relative"
+      id="colorPickerDiv"
+    >
       <ColorPicker
         theme="light"
         :color="color"
@@ -97,6 +101,13 @@ form {
   align: center;
   decoration: none;
 }
+
+#colorPickerDiv {
+  margin-left: auto;
+  position: relative;
+  x: 30px;
+}
+
 h3 {
   margin: 0 1em 1em 1em;
 }
